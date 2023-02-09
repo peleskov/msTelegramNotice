@@ -1,0 +1,5 @@
+Changelog for msTelegramNotice.
+
+1.0.0-beta
+==============
+- Init
