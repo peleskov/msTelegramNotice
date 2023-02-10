@@ -3,7 +3,7 @@
 /** @var modX $modx */
 switch ($modx->event->name) {
     case 'msOnCreateOrder':
-        //Получить chat_id https://api.telegram.org/bot5316971341:AAFvZzNQOTwMSjWkcK0fLsjJDh83OR67Idg/getUpdates
+        //Получить chat_id https://api.telegram.org/botXXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/getUpdates
         $chat_ids = $modx->getOption('site_start') ? explode(',', $modx->getOption('mstelegramnotice_telegram_recivers')) : [];
         $token = $modx->getOption('mstelegramnotice_telegram_token');
         
