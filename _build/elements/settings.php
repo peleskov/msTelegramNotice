@@ -1,9 +1,14 @@
 <?php
 
 return [
+    'telegram_token' => [
+        'xtype' => 'textfield',
+        'value' => '',
+        'area' => 'mstelegramnotice_main',
+    ],
     'telegram_recivers' => [
-        'xtype' => 'text',
-        'value' => '161188495',
+        'xtype' => 'textfield',
+        'value' => '',
         'area' => 'mstelegramnotice_main',
     ],
 ];
